@@ -1,14 +1,14 @@
 // Note: Please do not change the name of the functions. The tests use those names to validate your code.
 
 function findAuthorById(authors, id) {
-    for (let i in authors) {
-        if (authors[i].id === id) return authors[i];
+    for (let author in authors) {
+        if (authors[author].id === id) return authors[author];
     }
 }
 
 function findBookById(books, id) {
-    for (let i in books) {
-        if (books[i].id === id) return books[i];
+    for (let book in books) {
+        if (books[book].id === id) return books[book];
     }
 }
 
