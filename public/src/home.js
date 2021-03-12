@@ -26,7 +26,7 @@ function getMostCommonGenres(books) {
                 result[j].count++;
             }
         }
-        if (exists === false) {
+        if (!exists) {
             result.push({ name: books[i].genre, count: 1 });
         }
     }
