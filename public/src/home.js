@@ -11,7 +11,7 @@ function getTotalAccountsCount(accounts) {
 function getBooksBorrowedCount(books) {
     let currentBorrwedCount = 0;
     for (let i = 0; i < books.length; i++) {
-        if (books[i].borrows[0].returned === false) currentBorrwedCount++;
+        if (!books[i].borrows[0].returned) currentBorrwedCount++;
     }
     return currentBorrwedCount;
 }
