@@ -41,25 +41,6 @@ function getBorrowersForBook(book, accounts) {
 
 
 
-//console.log(accounts)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 module.exports = {
